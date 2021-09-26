@@ -2,7 +2,7 @@ var readlineSync = require("readline-sync");
 var score = 0;
 console.log("Hello");
 var userName = readlineSync.question("What is your Name? ");
-console.log("Welcome "+ userName + " to the quiz");
+console.log("Welcome "+ userName + " to the random quiz");
 var questionAnswerList = [
   {question:"Who is president of the USA ? ",
   answer:"Joe Biden"},
